@@ -15,7 +15,7 @@ let points = 0;
 // graphics 
 let clefairy;
 let togepi;
-let backdrop();
+let backdrop;
 
 function setup() {
     createCanvas(500, 500);
