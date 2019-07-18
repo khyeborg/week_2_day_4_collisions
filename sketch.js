@@ -15,6 +15,7 @@ let points = 0;
 // graphics 
 let clefairy;
 let togepi;
+let backdrop();
 
 function setup() {
     createCanvas(500, 500);
@@ -31,11 +32,12 @@ function setup() {
     // load images
     clefairy = loadImage("clefairy.png");
     togepi = loadImage("togepi.png");
+    backdrop = loadImage("backdrop.png");
 }
 
 function draw() {
-    // paint the background black
-    background(0);
+    // use an image as the background
+    image(backdrop, width / 2, height / 2, width, height);
 
     // draw the red enemy
     fill(255, 0, 0);
