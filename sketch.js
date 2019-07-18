@@ -32,7 +32,7 @@ function setup() {
     // load images
     clefairy = loadImage("clefairy.png");
     togepi = loadImage("togepi.png");
-    backdrop = loadImage("backdrop.png");
+    backdrop = loadImage("forest.png");
 }
 
 function draw() {
